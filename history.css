@@ -1,0 +1,17 @@
+body{
+    background-image: url("image3.jpg");
+    background-size:cover;
+    font-size: xx-large;
+    text-align: center;
+
+
+}
+h1{
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}

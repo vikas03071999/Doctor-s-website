@@ -1,0 +1,63 @@
+Doctor's Referral website :
+
+Website consists of a number of php files linked to each other keeping in mind the points in assignment:
+
+The website consist of some following important files:
+
+1-Signup.php file - This file consists of html code. The code sets up a beautiful sign up page with sign up button and entry field as email and password.The page is linked to style.css for styling purpose. On performing signup action this page connects to a pure php file named as SignUpSubmit.php for updating the new user to our database. An image is also included to make the page look more good.
+
+2-SignIn.php file - Now after the user has signed up to the website or already have an account he is directed to this sign in page. This page is also somewhat like our sign up page and consist of the same html code. For validaating the email and password the file is connected to SignInSubmit.php to make sure the user is already registered to our website. If user enters wrong password a wrong password message is also displayed. On entering right information user is logged in and is referred to the homepage of the website.
+
+3-Homepage.php file- This page is also coded using html. This is the page where user has access to Today's appointments, Referrals and History. User can also log out from this page. The page also consist of an image to make it look more good.This page is also linked to css file for styling purpose.
+
+4-Referrals.php file - This page consist of html code connected to a php code for submitting the patient details. The Submit.php file makes it possible to update the patient to our data base.
+
+5-History.php file - This html code consists of an embedded php code which returns all the patient referred by the doctor in the form of table. All the patient registered to our database are present here.
+
+
+Website uses following css files for styling the different pages:
+
+1- style.css - Generally used in sign up, sihn in pages.
+2- style1.css - Used for styling our homepage.
+3- history.css - for styling our history page.
+4- password.css - for rest of the tiny pages.
+
+
+
+
+
+
+
+
+Website uses following images used to provide good effect to our website:
+         
+
+
+
+
+Database related information:
+
+For storing data I used XAMPP.  
+All the data is stored in a local server in a database named referrals.
+The referrals data base consist of two tables named as user and patient.
+The user table stores the data about the users signed up and signed in
+to the website.
+The patient table stores the data about the patient.
+
+
+Links for each page in website:
+
+* SignUp page  : localhost/Doctor's Referral app/SignUp.php
+* SignIn page  : localhost/Doctor's Referral app/SignInp.php
+* Homepage     : localhost/Doctor's Referral app/homepage.php
+* Referral page: localhost/Doctor's Referral app/referrals.php
+* History page : localhost/Doctor's Referral app/history.php
+
+All the above links worked as per my observation.
+
+
+
+
+
+ 
+ 
